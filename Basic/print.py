@@ -24,4 +24,4 @@ def check_number(n):
     for i in range(1, n+1):
         print(i, end="")
 
-check_number(4)
+check_number(3)

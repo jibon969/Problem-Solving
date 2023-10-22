@@ -8,13 +8,27 @@ If n is even and in the inclusive range of 6 to 20, print Weird
 If n is even and greater than 20, print Not Weird
 
 """
-n = 4
-if n % 2 == 0 and n >=2 and n <= 5:
-    print("Not Weird")
-elif n % 2 == 0 and n >=6 and n <= 20:
-    print("Weird")
-elif n % 2 == 0 and n > 20:
-    print("Not Weird")
-else:
-    print("Weird")
+# n = 4
+# if n % 2 == 0 and n >=2 and n <= 5:
+#     print("Not Weird")
+# elif n % 2 == 0 and n >=6 and n <= 20:
+#     print("Weird")
+# elif n % 2 == 0 and n > 20:
+#     print("Not Weird")
+# else:
+#     print("Weird")
 
+
+def check_even(n):
+    if n % 2!= 0:
+        print("Weird")
+        return n
+    if n >=2 and n <= 5:
+        print("Not Weird")
+    elif n >=6 and n <= 20:
+         print("Weird")
+    elif n > 20:
+        print("Weird")
+
+
+check_even(3)

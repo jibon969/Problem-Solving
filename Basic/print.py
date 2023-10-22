@@ -15,7 +15,13 @@ for i in range(1, n+1):
 
 # print_number(3)
 
-n = int(input())
-for i in range(1, n+1):
-    print(i, end="")
-        
+# n = int(input())
+# for i in range(1, n+1):
+#     print(i, end="")
+
+# Function
+def check_number(n):
+    for i in range(1, n+1):
+        print(i, end="")
+
+check_number(4)

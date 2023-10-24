@@ -6,9 +6,16 @@ The second line contains the difference of the two numbers (first - second).
 The third line contains the product of the two numbers.
 """
 
-a = int(input())
-b = int(input())
+# a = int(input())
+# b = int(input())
 
-print(a+b)
-print(a-b)
-print(a*b)
+# print(a+b)
+# print(a-b)
+# print(a*b)
+
+def sum(a, b):
+    print(a+b)
+    print(a-b)
+    print(a*b)
+
+sum(10, 4)

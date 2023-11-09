@@ -3,8 +3,15 @@
 Sample value of n is 5
 Expected Result : 615
 """
-number =  5
-num1 = number*number
-num2 = number*3
 
-print(num1)
+number = int(input("Enter your number : "))
+n1 = int("%s" % number)
+n2 = int("%s%s" % (number, number))
+n3 = int("%s%s%s" % (number, number, number))
+print(n1+n2+n3)
+
+
+x = "4"
+y = int(x)
+print(type(y))
+

@@ -11,3 +11,4 @@ n3 = int("%s%s%s" % (number, number, number))
 print(n1+n2+n3)
 
 
+

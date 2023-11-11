@@ -4,11 +4,19 @@ Sample value of n is 5
 Expected Result : 615
 """
 
-number = int(input("Enter your number : "))
-n1 = int("%s" % number)
-n2 = int("%s%s" % (number, number))
-n3 = int("%s%s%s" % (number, number, number))
+# number = int(input("Enter your number : "))
+# n1 = int("%s" % number)
+# n2 = int("%s%s" % (number, number))
+# n3 = int("%s%s%s" % (number, number, number))
+# print(n1+n2+n3)
+
+x = int(input("Enter number : "))
+n1 = int(("%s" % x))
+n2 = int(("%s%s"%(x, x)))
+n3 = int(("%s%s%s"%(x, x, x)))
+
 print(n1+n2+n3)
+
 
 
 

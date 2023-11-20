@@ -1,2 +1,2 @@
-# Program to Print Your Own Name 
-print("Hello, Jibon Ahmed")
+# Program to Print Your Own Name
+print("Jibon Ahmed")

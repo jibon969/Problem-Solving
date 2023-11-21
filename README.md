@@ -64,6 +64,25 @@ print(sum) // Output: 15
 ```
 </details>
 
+#### 02. Maximum of two numbers in Python
+
+```
+Input: num1 = 5, num2 = 10
+Output: 10
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+num1 = 5
+num2 = 10
+if num1 >= num2:
+    print(f"{num1} Maximum")
+else:
+    print(f"{num2} Maximum")
+```
+</details>
+
 
 ---
 **[⬆ Back to Top](#header)**

@@ -64,7 +64,7 @@ print(sum) // Output: 15
 ```
 </details>
 
-#### 02. Maximum of two numbers in Python
+#### 02. Find Maximum of two numbers in Python
 
 ```
 Input: num1 = 5, num2 = 10

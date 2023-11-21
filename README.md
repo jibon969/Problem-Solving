@@ -71,28 +71,6 @@ print(sum) // Output: 15
 ```
 </details>
 
-#### 02. Check Whether a Number is Prime or Not
-
-```
-Input: 7
-Output: it prime number
-
-Complexity Analysis
-    Time Complexity: O(1)
-    Auxiliary Space: O(1)
-```
-<details>
-<summary>Solution</summary>
-
-```
-number = int(input("Enter your number : "))
-if number % 2 == 0:
-    print("Not, A prime number ", number)
-else:
-    print("it's prime number ", number)
-```
-</details>
-
 
 ---
 **[⬆ Back to Top](#header)**

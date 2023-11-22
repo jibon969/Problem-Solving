@@ -47,7 +47,7 @@ alt='Jayed Hossain Jibon'
 ```
 Input: num1 = 5, num2 = 10
 Output: 15
-Explanation: 342 + 465 = 807
+Explanation: 5 + 10 = 15
 
 Complexity Analysis
     Time Complexity: O(1)
@@ -69,6 +69,9 @@ print(sum) // Output: 15
 ```
 Input: num1 = 5, num2 = 10
 Output: 10
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
 ```
 <details>
 <summary style="cursor:pointer">Solution</summary>
@@ -80,6 +83,20 @@ if num1 >= num2:
     print(f"{num1} Maximum")
 else:
     print(f"{num2} Maximum")
+```
+</details>
+
+#### 03. Find the Factorial of a Number
+
+```
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
 ```
 </details>
 

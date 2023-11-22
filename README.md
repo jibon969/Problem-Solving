@@ -69,6 +69,7 @@ print(sum) // Output: 15
 ```
 Input: num1 = 5, num2 = 10
 Output: 10
+Explanation: 5, 10 ---> Here 10 is maximum
 Complexity Analysis
     Time Complexity: O(1)
     Auxiliary Space: O(1)

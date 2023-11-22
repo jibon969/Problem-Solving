@@ -89,6 +89,9 @@ else:
 #### 03. Find the Factorial of a Number
 
 ```
+Input  : 5
+Output : 120
+Explanation: 5! = 5*4*3*2*1
 Complexity Analysis
     Time Complexity: O(1)
     Auxiliary Space: O(1)
@@ -97,6 +100,13 @@ Complexity Analysis
 <summary style="cursor:pointer">Solution</summary>
 
 ```py
+def factorial_number(n):
+    f = 1
+    for i in range(1, n+1):
+        f = f * i
+        return f
+result = factorial_number(5)
+print(result)
 ```
 </details>
 

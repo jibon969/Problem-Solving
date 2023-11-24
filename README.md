@@ -183,6 +183,30 @@ print(result)
 ```
 </details>
 
+#### 07. Prime numbers in an Interval
+
+```
+Input: 
+start_number = 1
+end_number = 10
+Output : 1, 2, 3, 5, 7
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+start_num = int(input("Enter start number : "))
+end_num = int(input("Enter end number : "))
+
+for num in range(start_num, end_num+1):
+        for i in range(2, num):
+            if num % i == 0:
+                break
+        else:
+            print("Prime number : ", num)
+```
+</details>
+
 
 
 

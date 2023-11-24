@@ -208,6 +208,25 @@ for num in range(start_num, end_num+1):
 </details>
 
 
+#### 08. check whether a number is Prime or not
+
+```
+Input: 7
+Output : Prime Number
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+is_prime = int(input("Enter your number : "))
+
+if is_prime % 2 == 0:
+    print("Not Prime number")
+else:
+    print("Prime Number ")
+```
+</details>
+
 
 
 ---

@@ -163,7 +163,21 @@ compound_interest(12000, 5.4, 2)
 ```
 </details>
 
-#### 06. Find area of a circle
+#### 06. Armstrong Number
+
+```
+Input  : 
+Output : 
+Explanation:
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+```
+</details>
+
+#### 07. Find area of a circle
 
 ```
 Input: 5
@@ -183,7 +197,7 @@ print(result)
 ```
 </details>
 
-#### 07. Prime numbers in an Interval
+#### 08. Prime numbers in an Interval
 
 ```
 Input: 
@@ -208,7 +222,7 @@ for num in range(start_num, end_num+1):
 </details>
 
 
-#### 08. check whether a number is Prime or not
+#### 09. check whether a number is Prime or not
 
 ```
 Input: 7

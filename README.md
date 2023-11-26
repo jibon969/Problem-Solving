@@ -1,7 +1,9 @@
 
 
-<img src="image/Stages-Of-Problem-Solving.png" id='header'>
+<img src="image/how-to-approach-a-coding-problem.png" id='header'>
+
 <h1 align="center">Problem Solving</h1>
+
 <div align="center">
 <!-- Gmail Account -->
 <a href="mailto:jayed.swe@gmail.com">
@@ -42,7 +44,7 @@ alt='Jayed Hossain Jibon'
 
 <hr/>
 
-#### 01. Add Two Numbers
+##### 01. Add Two Numbers
 
 ```
 Input: num1 = 5, num2 = 10
@@ -54,7 +56,8 @@ Complexity Analysis
     Auxiliary Space: O(1)
 ```
 
-<details><summary style="cursor:pointer">Solution</summary>
+<details>
+<summary style="cursor:pointer">Solution</summary>
 
 ```py
 num1 = 5;
@@ -254,6 +257,28 @@ Output :
 
 ```
 </details>
+
+## Array
+
+#### 01. Find sum of array
+
+```
+Input  : 1, 2, 3, 4, 10
+Output : 20
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+num = [1, 2, 3, 4, 10]
+sum = 0
+for i in num:
+        sum = sum + i
+print(sum)
+```
+</details>
+
+
 
 ---
 **[⬆ Back to Top](#header)**

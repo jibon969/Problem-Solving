@@ -2,5 +2,7 @@
 
 import calendar
 
-month = calendar.month(2023, 1)
-print(month)
+year = int(input("Enter year   : "))
+month = int(input("Enter month : "))
+result = calendar.month(year, month)
+print(result)

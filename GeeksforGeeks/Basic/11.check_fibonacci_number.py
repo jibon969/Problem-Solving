@@ -2,16 +2,19 @@
 
 # n = int(input("Enter your number : "))
 
-# a = 0
-# b = 1
+a = 0
+b = 1
 
-# for i in range(n):
-#         i = a + b
-#         a = b
-#         b = i
-#         print(i)
+for i in range(10):
+        i = a + b
+        a = b
+        b = i
+        print(i)
+
+print("\n ========================== ")
     
 
+# Check Fibonacci number
 def isFibonacci(num):
         fib1 = 0
         fib2 = 1

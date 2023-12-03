@@ -296,6 +296,23 @@ print(output)
 </details>
 
 
+#### 12. ASCII Value of a character
+
+```
+Input  : A
+Output : 65
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+ascii_value = input("Enter your ascii : ")
+output = ord(ascii_value)
+print(output)
+```
+</details>
+
+
 
 ## Array
 

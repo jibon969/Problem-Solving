@@ -270,6 +270,33 @@ fibonacci_number(int(input("Enter your number : ")))
 ```
 </details>
 
+#### 11. Check Fibonacci Number
+
+```
+Input  : 10
+Output : 
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+def isFibonacci(num):
+        fib1 = 0
+        fib2 = 1
+        sum =  fib1 + fib2
+
+        while (sum <= num):
+                if num == sum:
+                        return True
+        return False
+
+output = isFibonacci(10)
+print(output)
+```
+</details>
+
+
+
 ## Array
 
 #### 01. Find sum of array

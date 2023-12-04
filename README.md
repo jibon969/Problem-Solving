@@ -315,8 +315,8 @@ print(output)
 #### 13. Sum of squares of first n natural numbers
 
 ```
-Input  : 4
-Output : 16
+Input : N = 5
+Output : 55
 ```
 <details>
 <summary style="cursor:pointer">Solution</summary>

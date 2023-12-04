@@ -338,6 +338,32 @@ print("Sum of squares : ", output)
 ```
 </details>
 
+#### 14. Cube sum of first n natural numbers
+
+```
+Input :  3
+Output: 784
+Explanation: 
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+    
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+number = int(input("Enter your number : "))
+def sum_of_square(n):
+        sum = 0
+        for i in range(1, n+1):
+                sum = sum + i * i
+        return sum
+output = sum_of_square(number)
+print("Sum of squares : ", output)
+```
+</details>
+
 
 
 ## Array

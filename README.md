@@ -315,7 +315,7 @@ print(output)
 #### 13. Sum of squares of first n natural numbers
 
 ```
-Input : N = 5
+Input  : 5
 Output : 55
 Explanation: 5 = 1**2 + 2**2 + 3**2 + 4**2+ 5**2
                = 1 + 4 + 9 + 16 + 25

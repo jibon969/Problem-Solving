@@ -312,6 +312,24 @@ print(output)
 ```
 </details>
 
+#### 13. Sum of squares of first n natural numbers
+
+```
+Input  : 4
+Output : 16
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+num = int(input("Enter your number : "))
+sum = 0
+for i in range(1, num+1):
+    sum = i * i
+print("Sum of squares : ", sum)
+```
+</details>
+
 
 
 ## Array

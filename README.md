@@ -317,16 +317,24 @@ print(output)
 ```
 Input : N = 5
 Output : 55
+Explanation: 5 = 1**2 + 2**2 + 3**2 + 4**2+ 5**2
+               = 1 + 4 + 9 + 16 + 25
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
 ```
 <details>
 <summary style="cursor:pointer">Solution</summary>
 
 ```py
-num = int(input("Enter your number : "))
-sum = 0
-for i in range(1, num+1):
-    sum = i * i
-print("Sum of squares : ", sum)
+number = int(input("Enter your number : "))
+def sum_of_square(n):
+        sum = 0
+        for i in range(1, n+1):
+                sum = sum + i * i
+        return sum
+output = sum_of_square(number)
+print("Sum of squares : ", output)
 ```
 </details>
 

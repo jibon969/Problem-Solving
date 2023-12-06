@@ -386,6 +386,32 @@ print(sum)
 ```
 </details>
 
+#### 02. Find largest element in an array
+
+```
+Input  : [1, 2, 3, 4, 10, 5]
+Output : 10
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+def large_element(arr, n):
+        max = arr[0]
+        for i in range(1, n):
+                if arr[i] > max:
+                        max = arr[i]
+        return max
+arr = [10, 20, 30]
+n = len(arr)
+output = large_element(arr, n)
+print(output)
+```
+</details>
+
+
+
+
 
 
 ---

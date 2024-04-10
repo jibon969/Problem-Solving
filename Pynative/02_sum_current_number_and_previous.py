@@ -1,1 +1,0 @@
-# current number and the previous

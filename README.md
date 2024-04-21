@@ -43,6 +43,21 @@ alt='Jayed Hossain Jibon'
 </div>
 
 <hr/>
+<div align="center">
+        <a href="https://www.programiz.com/python-programming/examples" target="_blank">Programiz
+        </a>
+        |
+        <a href="https://pynative.com/python-basic-exercise-for-beginners/" target="_blank">PYnative</a>
+        |
+        <a href="https://www.geeksforgeeks.org/python-programming-examples/" target="_blank">Geeksforgeeks</a>
+        |
+        <a href="https://www.w3resource.com/python-exercises/" target="_blank">w3resource</a>
+        |
+        <a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>
+        |
+        <a href="https://leetcode.com/" target="_blank">LeetCode</a>
+</div>
+<hr/>
 
 ##### 01. Add Two Numbers
 

@@ -13,7 +13,6 @@ print('{0} + {1} = {2}'.format(num1, num2, sum))
 
 
 # Add Two Numbers With User Input
-
 number1 = int(input("Enter your first number  : "))
 number2 = int(input("Enter your second number : "))
 
@@ -22,7 +21,6 @@ print('{0} + {1} = {2}'.format(number1, number2, result))
 
 
 # Add Two Numbers With function
-
 def add_two_number(num1, num2):
     return num1 + num2
 

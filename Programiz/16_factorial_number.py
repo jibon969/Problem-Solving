@@ -1,6 +1,8 @@
 # Find the Factorial of a Number
 
-sum = 1
-for i in range(1, 8):
-    sum = sum * i
-print(sum)
+num = 5
+factorial = 1
+for i in range(1, num+1):
+    factorial = factorial * i
+
+print(factorial)

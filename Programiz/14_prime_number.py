@@ -1,5 +1,5 @@
-
 # Check Prime Number
+
 num = 2
 for i in range(1, num):
     if num % i == 0:

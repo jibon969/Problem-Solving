@@ -9,3 +9,4 @@ for num in range(start_num, end_num+1):
                 break
         else:
             print("Prime number : ", num)
+            

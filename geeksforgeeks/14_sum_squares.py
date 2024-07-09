@@ -21,7 +21,7 @@ print(sum)
 def sum_squares(n):
     sum = 0
     for i in range(n):
-        sum = sum + (i*i)
+        sum += i*i*i
     print(sum)
 
 sum_squares(5)

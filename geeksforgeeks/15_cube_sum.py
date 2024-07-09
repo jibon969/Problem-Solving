@@ -6,8 +6,16 @@ Input: n = 5
 Output: 225
 """
 
+# sum = 0
+# for i in range(6):
+#     sum += i * i * i
+# print(sum)
 
-sum = 0
-for i in range(6):
-    sum += i * i * i
-print(sum)
+def cube_sum(n):
+    sum = 0
+    for i in range(6):
+        sum += i * i * i
+    print(sum)
+
+cube_sum(5)
+

@@ -10,7 +10,19 @@ Input : N = 5
 Output : 55
 """
 
+"""
 sum = 0
 for i in range(6):
     sum = sum + (i*i)
 print(sum)
+"""
+
+# Added function 
+def sum_squares(n):
+    sum = 0
+    for i in range(n):
+        sum = sum + (i*i)
+    print(sum)
+
+sum_squares(5)
+

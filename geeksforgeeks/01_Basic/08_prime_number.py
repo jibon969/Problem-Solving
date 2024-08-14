@@ -1,11 +1,12 @@
 # check whether a number is Prime or not
 
-is_prime = int(input("Enter your number : "))
+# is_prime = int(input("Enter your number : "))
 
-if is_prime % 2 == 0:
-    print("Not Prime number")
-else:
-    print("Prime Number ")
+# if is_prime % 2 == 0:
+#     print("Not Prime number")
+#     break
+# else:
+#     print("Prime Number ")
 	
 
 
@@ -41,3 +42,16 @@ step 3 : input / number (between 1 & give number)
 #     else:
 #         print("prime")
 #         break
+
+
+# Prime number in range
+my_list = []
+for i in range(10, 20+1):
+    number = i
+    for j in range(2, number):
+        if number % j == 0:
+            break
+    else:
+        my_list.append(i)
+
+print(my_list)

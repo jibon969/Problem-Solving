@@ -44,6 +44,7 @@ step 3 : input / number (between 1 & give number)
 #         break
 
 
+
 # Prime number in range
 my_list = []
 for i in range(10, 20+1):
